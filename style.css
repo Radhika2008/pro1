@@ -1,0 +1,89 @@
+
+            h1 {
+                color: brown;
+            }
+
+            
+        
+            .header{
+                display:flex;
+                justify-content:space-between;
+               
+                background-color: #f1b6b9;
+            }
+
+body {
+
+background-color: #7a2b86;
+border:solid;
+border-spacing: 40px;
+}
+
+
+.discription{
+display:flex;
+flex-direction: column;
+color:aqua;
+font-family: sans-serif;
+font-size: x-large;
+}
+    
+.discription p{
+   color: coral;
+  margin-left: 20px;  
+}
+a:link{
+color:cornflowerblue;
+
+}
+a:visited{
+
+color:darkred;
+
+}
+
+.parent{
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+color: deeppink;
+font-family:'Gill Sans';
+
+}
+
+.social-media{
+display:flex;
+justify-content: center;
+
+}
+.item p{
+position: absolute;
+
+top:50%;
+left:50%;
+transform: translate(-50%,-10%);
+opacity: 0;
+}
+
+.item{
+position:relative;
+
+
+}
+.item:hover p{
+opacity: 1;
+}
+
+.item:hover img{
+
+    opacity:0.33;
+}
+
+
+
+p{
+     
+    font-size:25px;
+}
+
+
